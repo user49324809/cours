@@ -1,0 +1,150 @@
+.block_four {
+    width: 1920px;
+    height: 329px;
+    background-color: rgb(62, 62, 136);
+}
+
+.footer_list{
+    border-top: solid #D5C9BE;
+    border-bottom: solid #D5C9BE;
+    width: 1920px;
+    height: 92px;
+    margin-top: 100px;
+}
+
+.footer_ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 40px;
+    gap: 60px;
+}
+
+.footer_li{
+    list-style: none;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_title{
+    display: flex;
+}
+
+.footer_name{
+    font-family: 'Prata', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 160px;
+    padding-right: 476px;
+    padding-top: 62px;
+    padding-top: 64px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_svg{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 32px;
+    width: 352px;
+    height: 32px;
+    padding-top: 64px;
+}
+
+.footer_button{
+    flex-direction: row;
+    width: 180px;
+    height: 78px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    color: #222222;
+    margin-left: 420px;
+    margin-top: 43px;
+}
+
+#footer_copyright{
+    display: flex;
+    padding-top: 30px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #D5C9BE;
+    gap: 581px;
+    padding-right: 183px;
+    padding-left: 160px;
+}
+
+.copyr{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+    .block_four {
+        width: 100%; 
+        height: auto;
+    }
+
+    .footer_list {
+        width: 100%; 
+        height: auto;
+        margin-top: 50px; 
+        padding: 10px 0;
+    }
+
+    .footer_ul {
+        flex-direction: column; 
+        text-align: center; 
+        padding-top: 10px;
+        padding-right: 0; 
+        gap: 20px;
+    }
+
+    .footer_li {
+        font-size: 16px; 
+        text-align: center; 
+        padding: 0; 
+        margin: 0; 
+    }
+
+    .footer_name {
+        font-size: 24px; 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        padding-top: 20px; 
+        line-height: normal;
+    }
+
+    .footer_svg {
+        gap: 16px;
+        padding-top: 20px;
+        justify-content: center; 
+    }
+
+    .footer_button {
+        width: 100%; 
+        height: auto; 
+        margin: 20px 0; 
+    }
+
+    #footer_copyright {
+        flex-direction: column; 
+        gap: 10px; 
+        padding: 20px 10px; 
+        text-align: center; 
+    }
+}

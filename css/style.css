@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 2989px; 
+    background-color: rgb(74, 74, 193);
+}
+
+.container {  
+    justify-content: space-between;
+}
+
+.block_one{
+    width: auto;
+    height: 1009px;
+   
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    width: 783px;
+    height: 58px;
+    left: 163px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.lorem {
+    font-family: 'Prata', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.ul_list {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: 29px;
+    padding-left: 205px;
+    text-transform: uppercase;
+}
+
+.other {
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: right;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 162px;
+    top: 325px;
+}
+
+.loreum_title,
+.price span.price-amount,
+.discount span.percent,
+.discount span.discount-amount {
+    font-family: 'Prata', serif;
+}
+
+.loreum_title {
+    font-size: 80px;
+    line-height: 120%;
+}
+
+.setting_text,
+.loreum_check,
+.do,
+.other_discount {
+    font-family: Arial, sans-serif; 
+}
+
+.setting_text {
+    font-size: 50px;
+    line-height: 220%;
+    letter-spacing: 0; 
+}
+
+.loreum_check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.discount{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    border-radius: 4px;
+    line-height: 90%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.do{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+}
+
+.discount-amount{
+    font-family: 'Prata', sans-serif;
+    font-size: 40px;
+}
+
+.discount_percent{
+    font-family: 'Prata', sans-serif;
+    font-size: 40px;
+}
+
+.other_discount{
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+}
+
+.order-button {
+    background-color: #FFFFFF;
+    color: #222222;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 191px;
+    height: 96px;
+    border: none;
+    line-height: 120%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.order-button:hover {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 191px;
+    height: 96px;
+    border: none;
+    line-height: 120%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.right-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 763px; 
+    height: 993px;
+}
+
+.right_image{
+    width: 763px; 
+    height: 993px;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+
+    body{
+        max-width: 768px;
+        max-height: auto;
+    }
+
+    .menu{
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .ul_list{
+        padding: 0;
+        margin: 0;
+    }
+}

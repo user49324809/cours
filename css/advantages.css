@@ -1,0 +1,120 @@
+.block_two {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; 
+    background-color: rgb(62, 62, 136);
+    margin-top: 100px;
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 614px;
+    height: 512px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.advantages_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    flex: none;
+}
+
+.advantages_li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+
+.advantages_list{
+    list-style: none;
+    width: 544px;
+    height: 51px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.009em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.advantages_list_fx{
+    list-style: none;
+    width: 544px;
+    height: 119px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.009em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.divider{
+    width: 614px;
+    height: 0px;
+    border: 1px solid #55565A;
+}
+
+.button_advantages{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 614px;
+    height: 78px;
+    border: #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 4px;
+    order: 1;
+    align-self: stretch;
+    margin-top: 70px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #282829;
+}
+
+.build_one, .build_two{
+    width: 622px;
+    height: 724px;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    .block_two{
+        max-width: 768px;
+        max-height: auto;
+        flex-wrap: wrap;
+    }
+
+    .button_advantages{
+        position: absolute; 
+        bottom: 0;
+    }
+}
