@@ -13,7 +13,7 @@ body {
 .block_one{
     width: auto;
     height: 1009px;
-   
+    background-color: rgb(62, 62, 136);
     display: flex;
     justify-content: space-between;
     color: #fff;
